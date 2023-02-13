@@ -14,4 +14,14 @@ public class GameController : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
